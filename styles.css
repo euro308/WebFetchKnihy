@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+input {
+    font-size: 20px;
+}
+
+.books {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    margin-top: 20px;
+}
+
+.singleBook {
+    width: 300Px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+}
